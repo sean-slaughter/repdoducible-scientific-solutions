@@ -13,6 +13,7 @@ function App() {
 
 
   return (
+<<<<<<< HEAD
   <div>
     <NavigationBar/>
       <Route path="/home" component={Home}/>
@@ -22,6 +23,25 @@ function App() {
       <Route path="/publications" component={Publications}/>
       <Route path="/contact" component={Contact}/>
   </div>
+=======
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <div> hello </div>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+>>>>>>> 8cd993ca3c256589f9b07f6003dbb3cbfbd2de90
   );
 }
 

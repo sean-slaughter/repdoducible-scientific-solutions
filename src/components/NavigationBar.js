@@ -5,12 +5,13 @@ import NavbarBrand from 'react-bootstrap/NavbarBrand';
 import NavbarToggle from 'react-bootstrap/NavbarToggle';
 import NavbarCollapse from 'react-bootstrap/NavbarCollapse';
 import {Link} from 'react-router-dom'
+import { Image } from 'react-bootstrap';
 
 export default function NavigationBar() {
     return (
         <div>
-            <Navbar className="border-bottom navbar-dark" id="navbar" expand="lg" style={{backgroundColor: "#463F57"}}>
-                <NavbarBrand>Reproducible Scientific Solutions</NavbarBrand>
+            <Navbar className="border-bottom navbar-dark" id="navbar" expand="lg" style={{backgroundColor: "#001405"}}>
+                <NavbarBrand><Image className="brand-logo" src="/logo.png" fluid/></NavbarBrand>
                 <NavbarToggle className="border-0" aria-controls="navbar-toggle" />
                 <NavbarCollapse id="navbar-toggle" >
                 <Nav className="ml-auto">

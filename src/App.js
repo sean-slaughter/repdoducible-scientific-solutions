@@ -9,6 +9,7 @@ import Contact from './containers/Contact'
 import MonitoringEvaluation from './containers/MonitoringEvaluation'
 import Projects from './containers/Projects'
 import Publications from './containers/Publications'
+import Services from './containers/Services'
 function App() {
 
 
@@ -22,6 +23,7 @@ function App() {
       <Route path="/projects" component={Projects}/>
       <Route path="/publications" component={Publications}/>
       <Route path="/contact" component={Contact}/>
+      <Route path="/services" component={Services}/>
   </div>
   );
 }

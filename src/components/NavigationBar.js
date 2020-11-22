@@ -20,6 +20,7 @@ export default function NavigationBar() {
                     <Link className='nav-link' to="/projects">Projects</Link>
                     <Link className='nav-link' to="/monitoringevaluation">Monitoring &amp; Evalutation</Link>
                     <Link className='nav-link' to="/publications">Publications</Link>
+                    <Link className='nav-link' to="/services">Services</Link>
                     <Link className='nav-link' to="/contact">Contact</Link>
                 </Nav>
             </NavbarCollapse>

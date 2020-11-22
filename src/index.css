@@ -24,7 +24,6 @@ body {
 h1{
   font-size: 3.5rem;
   border-bottom: 2px solid black;
-  
 }
 h2{
   border-bottom: 2px solid black;
@@ -36,4 +35,5 @@ p {
 
 p.services{
   font-size: 1rem;
+  margin-bottom: 30px;
 }
